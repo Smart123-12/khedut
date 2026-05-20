@@ -19,7 +19,7 @@ import Contact from './pages/Contact';
 export default function App() {
   return (
     <AppProvider>
-      <Router>
+      <Router basename="/khedut">
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
           <Navbar />
           <main style={{ flex: 1 }}>
