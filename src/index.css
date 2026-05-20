@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@300;400;500;600;700;800&family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
 
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+.organic-texture { background-image: radial-gradient(#2d5a2715 1px, transparent 1px); background-size: 24px 24px; }
+.mango-gradient { background: linear-gradient(135deg, #feb700 0%, #ff8c00 100%); }
+.bento-grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 200px); gap: 16px; }
+@media (max-width: 768px) { .bento-grid { grid-template-columns: 1fr; grid-template-rows: auto; } }
+
 :root {
   --green-dark: #154212;      /* Stitch primary */
   --green-main: #2d5a27;      /* Stitch primary-container / vibrant green */
